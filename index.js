@@ -3,7 +3,7 @@ let operando1 = '';
 let operando2 = '';
 let operador = '';
 let allowMultipleOperators = false;
-
+ 
 function agregarNumero(numero) {
     if (allowMultipleOperators) {
         operando2 += numero;
