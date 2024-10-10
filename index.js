@@ -12,7 +12,7 @@ function agregarNumero(numero) {
         display.value += numero;
     }
 }
-
+ 
 function operar(op) {
     if (!allowMultipleOperators) {
         operando1 = display.value;
