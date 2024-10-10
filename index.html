@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <main class="Calculadora-box">
+        <section class="mostrar-resultado-box">
+            <input type="text" id="mostrar-resultado" class="mostrar-resultado" disabled>
+        </section>
+        <section class="botones-operaciones-button">
+            <button id="button-Borrar" class="button-operation" onclick="borrar()">C</button>
+            <button id="button-Dividir" class="button-operation" onclick="operar('/')">/</button>
+            <button id="button-Multiplicar" class="button-operation" onclick="operar('*')">*</button>
+            <button id="button-Menos" class="button-operation" onclick="operar('-')">-</button>
+        </section>
+        <section class="botones-operaciones-button"></section>
+            <button id="button-nueve" class="button-number" onclick="agregarNumero(9)">   9</button>
+            <button id="button-ocho" class="button-number" onclick="agregarNumero(8)">   8</button>
+            <button id="button-siete" class="button-number" onclick="agregarNumero(7)">   7</button>
+            <button id="button-mas" class="button-operation" onclick="operar('+')">+</button> <br>
+            <button id="button-cuatro" class="button-number" onclick="agregarNumero(4)">   4</button>
+            <button id="button-cinco" class="button-number" onclick="agregarNumero(5)">   5</button>
+            <button id="button-seis" class="button-number" onclick="agregarNumero(6)">   6</button>
+            <button id="button-igual" class="button-operation" onclick="calcular()">=</button><br>
+            <button id="button-tres" class="button-number" onclick="agregarNumero(3)">   3</button>
+            <button id="button-dos" class="button-number" onclick="agregarNumero(2)">   2</button>
+            <button id="button-uno" class="button-number" onclick="agregarNumero(1)">   1</button>
+            <button id="button-punto" class="button-operation" onclick="agregarNumero('.')">.</button> <br>
+            <button id="button-cero" class="button-number-cero" onclick="agregarNumero(0)">0</button>
+        </section>
+
+        <script src="./index.js"></script>
+    </main>
+</body>
+</html>

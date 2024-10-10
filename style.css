@@ -1,0 +1,45 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(3, 98, 146);
+}
+
+.button-number, .button-operation{
+    padding: 20px;
+    margin: 5px;
+    width: 5%;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    background-color: rgb(12, 43, 67);
+    color: white;
+    border-radius: 50%;
+    border: none;
+}
+
+.button-number-cero{
+    padding: 20px;
+    margin: 5px;
+    width: 18.5%;
+    background-color: rgb(12, 43, 67);
+    color: white;
+    border: none;
+    font: bolder;
+}
+
+.mostrar-resultado{
+    padding: 20px;
+    margin: 5px;
+    width: 20%;
+    height: 20px;
+    border: 1px solid black;
+    background-color: rgb(59, 59, 59);
+    color: white;
+    font: bold;
+}
+
+.Calculadora-box{
+    margin: 10px;
+    padding-left: 660px;
+    padding-top: 150px;
+}
